@@ -16,14 +16,12 @@ Download and put the files in your directory where the mashup can call them.
 # Example of use
 1. Create one div with one ID on your HTML file of mashup where you want the table to be shown
 
+  < body>
+    (...)
+    < div id="div_qlikHandler"></div>
+    (...)
+  < /body>
 
-  (
-  <body>
-    ...
-    <div id="div_qlikHandler"></div>
-    ...
-  </body>
-  )
 
 2. Inside your js file of mashup go to require funcion. Inside it call the class qlikHandler on document.ready after you call the object and the app.
 
