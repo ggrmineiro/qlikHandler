@@ -15,6 +15,13 @@ Edit values on the html table:
 
 ![image](https://user-images.githubusercontent.com/49288975/126521964-7c47d15c-5613-4cc6-a0d8-31ed6e524011.png)
 
+Inside the class, define wich fields are editables (line 16):
+
+![image](https://user-images.githubusercontent.com/49288975/126522354-abd6b60f-22bb-464c-aae4-f45a73d051c0.png)
+
+
+*median, mean, consider and comparison cells are defined here, but calculated automatically
+
 
 # Installation
 Download and put the files in your directory where the mashup can call them.
