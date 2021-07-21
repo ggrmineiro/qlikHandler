@@ -2,6 +2,20 @@
 
 qlikHandler allow get the data from a Qlik Sense Object inside a Mashup and send it to one HTML table.
 
+Creates a html table with the same fields as the selected qlik_object:
+
+![image](https://user-images.githubusercontent.com/49288975/126521691-293077ec-6be8-41ba-beca-73533015039d.png)
+
+
+Add, remove rows to the table:
+
+![image](https://user-images.githubusercontent.com/49288975/126521829-8bc5b098-4507-4239-b448-4e803fbd8f18.png)
+
+Edit values on the html table:
+
+![image](https://user-images.githubusercontent.com/49288975/126521964-7c47d15c-5613-4cc6-a0d8-31ed6e524011.png)
+
+
 # Installation
 Download and put the files in your directory where the mashup can call them.
 
