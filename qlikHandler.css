@@ -1,0 +1,90 @@
+@-webkit-keyframes updated {
+    from {
+        background-color: #009688;
+    }
+    to {
+        background-color: inherit;
+    }
+}
+
+@-moz-keyframes updated {
+    from {
+        background-color: #009688;
+    }
+    to {
+        background-color: inherit;
+    }
+}
+
+@-o-keyframes updated {
+    from {
+        background-color: #009688;
+    }
+    to {
+        background-color: inherit;
+    }
+}
+
+@keyframes updated {
+    from {
+        background-color: #009688;
+    }
+    to {
+        background-color: inherit;
+    }
+}
+
+@-webkit-keyframes updatedCell {
+    from {
+        background-color: inherit;
+    }
+    to {
+        background-color: #009688;
+    }
+}
+
+@-moz-keyframes updatedCell {
+    from {
+        background-color: inherit;
+    }
+    to {
+        background-color: #009688;
+    }
+}
+
+@-o-keyframes updatedCell {
+    from {
+        background-color: inherit;
+    }
+    to {
+        background-color: #009688;
+    }
+}
+
+@keyframes updatedCell {
+    from {
+        background-color: inherit;
+    }
+    to {
+        background-color: #009688;
+    }
+}
+
+.updatedCell {
+    -webkit-animation: updatedCell var(--duration);
+    -moz-animation: updatedCell var(--duration);
+    -o-animation: updatedCell var(--duration);
+    animation: updatedCell var(--duration);
+    background-color: #009688;
+}
+
+.updated {
+    -webkit-animation: updated var(--duration);
+    -moz-animation: updated var(--duration);
+    -o-animation: updated var(--duration);
+    animation: updated var(--duration);
+}
+
+:root {
+    --duration: 2s;
+}
