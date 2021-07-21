@@ -21,7 +21,7 @@ Download and put the files in your directory where the mashup can call them.
     < div id="div_qlikHandler"></div>
     (...)
   < /body>
-
+  
 
 2. Inside your js file of mashup go to require funcion. Inside it call the class qlikHandler on document.ready after you call the object and the app.
 
@@ -40,3 +40,5 @@ Download and put the files in your directory where the mashup can call them.
   
 3. Correct the parameters of the class to your div id and your object id (the object you want to get data and send it to the html table)
   qlikHandler(app, [div_id], [object_id]);
+  
+  
